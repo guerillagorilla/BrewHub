@@ -1,3 +1,3 @@
 # BrewHub
 
-**Used to track coffee consumption and money owed.
+## Used to track coffee consumption and money owed.
