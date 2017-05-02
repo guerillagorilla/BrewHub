@@ -4,8 +4,6 @@
 
 <center>This is another test.</center>
 
-<link rel="stylesheet" type="text/css" href="/code_examples/tutorial.css">
-<script type="text/javascript" src="/code_examples/passtest.js"></script>
 <div class="tutorialWrapper">
 <body>
     <form>
@@ -49,9 +47,10 @@
         message.innerHTML = "Passwords Do Not Match!"
     }
 }  
-    
-    </script>
-    </body>
+
+</script>
+</body>
 </div>
+
 
 
