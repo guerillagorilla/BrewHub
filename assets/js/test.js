@@ -25,3 +25,15 @@ function checkPass() {
         message.innerHTML = "Great Job!"
     }
 }
+
+$(function() {
+    var clickCount = localStorage.getItem('clickCount');
+    clickCount = clickCount ? parseInt(clickCount) : 0;
+    var $num = $('.num');
+    $num.text(clickCount);
+    $('.box').click(function() {
+        $num.text(++clickCount);
+        localStorage.setItem('clickCount', clickCount);
+    });
+
+});
