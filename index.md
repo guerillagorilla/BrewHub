@@ -16,6 +16,9 @@
             <span id="confirmMessage" class="confirmMessage"></span>
         </div>
     </form>
+    <content>
+        <div id="box1" class="box">Click Count: <span class="num">0</span></div>
+    </content>
     <script type="text/javascript" src="/BrewHub/assets/js/test.js"></script>
 </body>
 </div>
